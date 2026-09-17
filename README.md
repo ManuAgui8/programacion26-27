@@ -6,4 +6,4 @@
 
 # Definiciones
     -Algoritmo: Secuencia de pasos ordenada y finita para resolver o solucionar un problema.
-    Crear repositorio - descargar repositorio en local - hacer el trabajo-crear un commit - subir el repositorio actualizado
+    Crear repositorio - descargar o clonar repositorio en local - hacer el trabajo-  crear un commit - subir el repositorio actualizado con un push
