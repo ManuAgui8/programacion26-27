@@ -3,6 +3,10 @@
 
 Empezamos a trabajar con github en remoto.
 
-#Comprobación con github desktop
+# Comprobacion con github desktop
 
 esto es para ver si cambia con el fetch
+
+### Cambios desde local
+
+
