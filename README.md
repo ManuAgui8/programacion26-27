@@ -1,12 +1,9 @@
-# Módulo de programación cicle DAW
+# Módulo de programación ciclo DAW
+
+
 ## Curso 2026-2027
 
-Empezamos a trabajar con github en remoto.
 
-# Comprobacion con github desktop
-
-esto es para ver si cambia con el fetch
-
-### Cambios desde local
-
-
+# Definiciones
+    -Algoritmo: Secuencia de pasos ordenada y finita para resolver o solucionar un problema.
+    Crear repositorio - descargar repositorio en local - hacer el trabajo-crear un commit - subir el repositorio actualizado
