@@ -17,9 +17,9 @@ Algoritmo Ejercicio_2
 	div	= num_a / num_b;
 	
 	Escribir "La suma de ", num_a, " + ", num_b, " es: ", suma;
-	Escribir "La resta es: ", resta;
-	Escribir "El producto es: ", prod;
-	Escribir "La división: ", div;
+	Escribir "La resta de ", num_a, " - ", num_b, " es: ", resta;
+	Escribir "La multiplicacion de ", num_a, " x ", num_b, " es: ", prod;
+	Escribir "La division de ", num_a, " / ", num_b, " es: ", div;
 	
 	
 FinAlgoritmo
