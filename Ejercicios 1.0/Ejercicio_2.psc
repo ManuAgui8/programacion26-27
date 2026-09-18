@@ -16,7 +16,7 @@ Algoritmo Ejercicio_2
 	prod = num_a * num_b;
 	div	= num_a / num_b;
 	
-	Escribir "La suma de estos numeros es: ", suma;
+	Escribir "La suma de ", num_a, " + ", num_b, " es: ", suma;
 	Escribir "La resta es: ", resta;
 	Escribir "El producto es: ", prod;
 	Escribir "La división: ", div;
