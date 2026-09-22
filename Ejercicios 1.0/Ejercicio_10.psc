@@ -1,9 +1,10 @@
-Algoritmo Ejercicio_9
+Algoritmo Ejercicio_10
 	
 	Definir num, aux1 Como Entero;
 	
 	Escribir "Escribeme un numero entero y te dire si es par o impar";
 	Leer num;
+	
 	
 	Si num <> 0 Entonces
 		aux1 = num MOD 2;
