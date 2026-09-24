@@ -15,7 +15,7 @@ Algoritmo Ejercicio_15
 		Escribir "Dime varios numeros y te hare su media aritmetica (-1 para salir)";
 		Leer i;
 		
-	Hasta Que i = -1 
+	Hasta Que i == -1 
 	
 	media = suma/contador;
 	
