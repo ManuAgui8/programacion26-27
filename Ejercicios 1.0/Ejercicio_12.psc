@@ -4,6 +4,7 @@ Algoritmo Ejercicio_12
 	Definir num, cuadrado Como Entero;
 	
 	num = 1;
+	cuadrado = 0;
 	
 	Repetir
 		

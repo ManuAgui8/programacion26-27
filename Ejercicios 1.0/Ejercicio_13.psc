@@ -15,6 +15,6 @@ Algoritmo Ejercicio_13
 		
 	Hasta Que aux >= num
 	
-	Escribir suma;
+	Escribir "La suma es :", suma;
 	
 FinAlgoritmo
