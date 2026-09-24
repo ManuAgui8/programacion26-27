@@ -1,19 +1,19 @@
 Algoritmo Ejercicio_13
 	
-	Definir num, aux, suma Como Entero;
+	Definir i, j, suma Como Entero;
 	
 	Escribir "Dime un numero y te dire la suma de todos los numeros hasta el que elijas";
-	Leer num;
+	Leer i;
 	
-	aux = 0;
+	j = 0;
 	suma = 0;
 	
 	Repetir
 		
-		aux = aux + 1;
-		suma = suma + aux;
+		j = j + 1;
+		suma = suma + j;
 		
-	Hasta Que aux >= num
+	Hasta Que j >= i
 	
 	Escribir "La suma es ", suma;
 	

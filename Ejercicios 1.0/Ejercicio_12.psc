@@ -1,18 +1,18 @@
 Algoritmo Ejercicio_12
 	
 	
-	Definir num, cuadrado Como Entero;
+	Definir i, cuadrado Como Entero;
 	
-	num = 1;
+	i = 1;
 	cuadrado = 0;
 	
 	Repetir
 		
-		cuadrado = num * num;
+		cuadrado = i * i;
 		Escribir cuadrado;
-		num = num + 1;
+		i = i + 1;
 		
-	Hasta Que num > 9
+	Hasta Que i > 9
 	
 	
 	
