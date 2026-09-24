@@ -2,24 +2,7 @@ Algoritmo Ejercicio_11
 	
 	Definir titulo_bach, prueba_acceso, grado_medio Como Logico;
 	
-//	Escribir "¿Tienes el titulo de bachiller para cursar el ciclo?";
-//	Leer titulo_bach;
-	
-//	titulo_bach = Minusculas(titulo_bach);
-	
-//	Si (titulo_bach == "si") Entonces
-//		Escribir "Puedes entrar al ciclo";
-//	SiNo
-//		Escribir "Entonces, ¿tienes la prueba de acceso?";
-//		Leer prueba_acceso;
-//		prueba_acceso = Minusculas(prueba_acceso);
-//		Si prueba_acceso == "si" Entonces
-//			Escribir "Puedes entrar al ciclo";
-//		SiNo
-//			Escribir "No puedes entrar al ciclo";
-//		FinSi
-//	FinSi
-	
+
 	titulo_bach = Falso;
 	prueba_acceso = Falso;
 	grado_medio = Falso;
@@ -30,6 +13,12 @@ Algoritmo Ejercicio_11
 	Leer grado_medio;
 	Escribir "¿Tienes prueba de acceso? Dime Verdadero o Falso";
 	Leer prueba_acceso;
+	
+	Si (titulo_bach == Verdadero) o (prueba_acceso == Verdadero) o (grado_medio == Verdadero) Entonces
+		Escribir "Puedes entrar al grado";
+	SiNo
+		Escribir "No puedes entrar al grado";
+	FinSi
 	
 	
 FinAlgoritmo
