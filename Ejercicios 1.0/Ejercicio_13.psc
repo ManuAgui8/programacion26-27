@@ -6,10 +6,13 @@ Algoritmo Ejercicio_13
 	Leer num;
 	
 	aux = 0;
+	suma = 0;
 	
 	Repetir
+		
 		aux = aux + 1;
-		suma = aux + aux;
+		suma = suma + aux;
+		
 	Hasta Que aux >= num
 	
 	Escribir suma;
