@@ -1,25 +1,23 @@
 Algoritmo Ejercicio_14
 	
-	Definir i, j, suma Como Entero;
+	Definir i, suma, num, num_par Como Entero;
 	
-	Escribir "Dime un numero y te dire la suma de los pares con ese valor";
-	Leer i;
+	Escribir "Dime un numero y te dire la suma de esos primeros numeros pares";
+	Leer num;
 	
-
-	j = 0;
+	
 	suma = 0;
+	i = 1;
+	num_par = 2;
 	
-	Repetir
-		
-		j = j + 2;
-		Suma = suma + j;
-		
-	Hasta Que j > i
 	
+	Para i = 1 Hasta num Con Paso 1 Hacer
+		suma = suma + num_par;
+		num_par = num_par + 2;
+	FinPara
+
 	
 	Escribir suma;
-
-	
 
 
 	
