@@ -1,27 +1,14 @@
 Algoritmo Ejercicio_18
 	
-	Definir i, j Como Entero;
+	Definir i Como Entero;
 	
 	i = 0;
-	j = 0;
 	
-	Escribir "Multiplos de 2:";
-	
-	Para i = 2 Hasta 100 Con Paso 2 Hacer
+	Para i = 1 Hasta 100 Con Paso 1 Hacer
 		
-		Escribir i;
-		
-		
-	FinPara
-	
-	Escribir "-----------------------------------------";
-	Escribir "Multiplos de 3 :";
-	
-	
-	Para j = 3 Hasta 100 Con Paso 3 Hacer
-		
-		Escribir j;
-		
+		Si (i MOD 2 = 0) o (i MOD 3 = 0) Entonces
+			Escribir i;
+		FinSi
 		
 	FinPara
 	
