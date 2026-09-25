@@ -10,8 +10,14 @@ Algoritmo Ejercicio_19
 	FinSi
 	
 	Segun mes Hacer
-		mes == 1:
-			Escribir "La fecha es ", dia, " de enero de ", año;
+		1:
+			Escribir "La fecha es ", dia, " de enero del año ", año;
+		2:
+			Escribir "La fecha es ", dia, " de febrero del año ", año;
+		3:
+			Escribir "La fecha es ", dia, " de marzo del año ", año;
+		4:
+			Escribir "La fecha es ", dia, " de abril del año ", año;
 	Fin Segun
 	
 FinAlgoritmo
