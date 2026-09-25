@@ -1,24 +1,49 @@
 Algoritmo Ejercicio_17
 	
-	Definir num, max Como Entero;
+	Definir num, max, min Como Entero;
 	Definir suma, contador, media Como Real;
 	
 	num = 0; 
 	suma = 0;
-	contador = -1;
+	contador = 0;
 	max = 0;
+	min = 0;
 	
-	Repetir
+	Escribir "Dime un número, (0 para salir)";
+	Leer num;
+	
+	Si num <> 0 Entonces
 		
-		suma = suma + num;
-		contador = contador + 1;
-		Escribir "Dime un numero";
-		Leer num;
+		max = num;
+		min = num;
 		
-	Hasta Que num == 0
+		Mientras num <> 0 Hacer
+			
+			suma = suma + num;
+			contador = contador + 1;
+			Escribir "Dime otro número, (0 para salir)";
+			Leer num;
+			
+			Si (num < min) y (num <> 0) Entonces
+				min = num;
+			SiNo
+				Si num <> 0 Entonces
+					max = num;
+				FinSi
+			FinSi
+			
+		FinMientras
+		
+		
+	FinSi
+	
 	
 	media = suma/contador;
 	
 	Escribir "La media de estos numeros es ", media;
+	Escribir "El maximo ha sido ", max;
+	Escribir "El minimo ha sido ", min;
+	
+	
 	
 FinAlgoritmo
