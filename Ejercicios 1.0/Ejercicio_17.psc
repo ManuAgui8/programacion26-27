@@ -6,8 +6,7 @@ Algoritmo Ejercicio_17
 	num = 0; 
 	suma = 0;
 	contador = 0;
-	max = 0;
-	min = 0;
+
 	
 	Escribir "Dime un número, (0 para salir)";
 	Leer num;
