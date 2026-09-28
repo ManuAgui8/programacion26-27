@@ -13,7 +13,11 @@ Algoritmo Ejercicio_19
 			1:
 				Escribir "La fecha es ", dia, " de enero del año ", año;
 			2:
-				Escribir "La fecha es ", dia, " de febrero del año ", año;
+				Si dia > 28 Entonces
+					Escribir "Febrero tiene 28 días o menos";
+				SiNo
+					Escribir "La fecha es ", dia, " de febrero del año ", año;
+				FinSi
 			3:
 				Escribir "La fecha es ", dia, " de marzo del año ", año;
 			4:
