@@ -4,6 +4,7 @@ Algoritmo Ejercicio_5
 	
 	num = 0;
 	i = 0;
+	aux = 0;
 	
 	Escribir "Dime un número y te mostraré su tabla de multiplicar";
 	Leer num;
