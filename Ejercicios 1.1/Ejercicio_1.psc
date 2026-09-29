@@ -30,7 +30,7 @@ Algoritmo Ejercicio_1
 			aux = Verdadero;
 		FinSi
 		
-	Hasta Que aux == Verdadero
+	Hasta Que aux
 	
 	Escribir mas_doscientos " empleados ganan más de 200 euros";
 	Escribir mas_quinientos " empleados ganan más de 500 euros";
