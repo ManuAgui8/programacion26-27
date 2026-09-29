@@ -16,7 +16,15 @@ Algoritmo Ejercicio_2
 	Escribir "Dime cuanto has pagado";
 	Leer precio_cliente;
 	
+	Repetir
+		Si precio_cliente < precio_total Entonces
+			Escribir "Porfavor, abona la cantidad minima necesaria";
+			Leer precio_cliente;
+		FinSi
+	Hasta Que precio_cliente >= precio_total
+	
 	cambio = precio_cliente - precio_total;
+	
 	
 	Escribir "El cambio correspondiente es de ", cambio, " euros";
 	
