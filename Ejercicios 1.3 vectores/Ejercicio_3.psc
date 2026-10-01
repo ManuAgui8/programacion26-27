@@ -17,7 +17,7 @@ Algoritmo Ejercicio_3
 	Escribir "Estos son los multiplos de ", num_raiz, " que caben en el vector:";
 	
 	Para i = 0 Hasta (tam - 1) Con Paso 1 Hacer
-		vnumsmultiplos[i] = num_raiz * i;
+		vnumsmultiplos[i] = num_raiz * (i+1);
 		Escribir vnumsmultiplos[i];
 	FinPara
 	
